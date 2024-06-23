@@ -29,12 +29,12 @@ public class Spet {
         System.out.println(maxR);
         System.out.printf("2*15 = 30");*/
 
-        System.out.println("Amangeldi");
+        System.out.println("Rog Strix");
         System.out.printf("20*20 = 400 %d", 12 * 3).println();
         System.out.printf("20*20 = %d", 12 * 3).println();
         System.out.printf("%d %d %d", 12 * 10, 3 * 6, 20 / 2).println();
         System.out.printf("%d * %d = %d", 12 * 10, 3 * 6, 20 / 2).println();
-        System.out.printf("Pro s %s", "Minennergo").println();
+        System.out.printf("Pro s %s", "MinE Gols").println();
         System.out.printf("Pro s %f %f %f", 5.5, 6.5, 7.5).println();
         System.out.println();
         System.out.println();
