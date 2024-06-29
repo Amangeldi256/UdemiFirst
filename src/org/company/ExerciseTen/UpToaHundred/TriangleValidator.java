@@ -1,4 +1,4 @@
-package org.company;
+package org.company.ExerciseTen.UpToaHundred;
 
 public class TriangleValidator {
     /*public boolean isValidTriangle(int angle1, int angle2, int angle3) {

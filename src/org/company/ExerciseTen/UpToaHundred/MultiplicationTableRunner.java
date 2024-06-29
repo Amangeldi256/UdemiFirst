@@ -1,4 +1,4 @@
-package org.company;
+package org.company.ExerciseTen.UpToaHundred;
 
 public class MultiplicationTableRunner {
     public static void main(String[] args) {

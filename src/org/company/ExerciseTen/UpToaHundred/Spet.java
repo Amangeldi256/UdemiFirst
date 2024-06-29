@@ -1,4 +1,4 @@
-package org.company;
+package org.company.ExerciseTen.UpToaHundred;
 
 import java.lang.Math;
 

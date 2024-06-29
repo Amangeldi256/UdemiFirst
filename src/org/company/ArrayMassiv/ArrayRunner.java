@@ -9,14 +9,14 @@ public class ArrayRunner {
         int count = 0;
         int sum = 0;
 
-        int min = 220;
-        int max = 170;
+        int max = 220;
+        int min = 170;
         int[] array = new int[20];
 
         int m = rd.nextInt();
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = rd.nextInt((min - max) + 1) + max;
+            array[i] = rd.nextInt((max - min) + 1) + min;
             System.out.println(i + " = "+array[i]);
         }
         System.out.println(" ");
