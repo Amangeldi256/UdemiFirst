@@ -6,10 +6,15 @@ import java.util.Scanner;
 
 public class TestFirst {
     public static void main(String[] args) throws FileNotFoundException {
-        String str = "Hello World mAshina";
 
-        File file = new File("");
+
+
+       // File file = new File("D:\\Udemi\\first\\01.txt");
+        File file = new File("D:\\Udemi\\first\\02.txt");
         Scanner scanner = new Scanner(file);
+
+        String str = scanner.nextLine();
+
 
         char[] letters = new char[52];
         int index = 0;
