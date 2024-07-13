@@ -6,19 +6,14 @@ import java.util.Scanner;
 
 public class TestFirst {
     public static void main(String[] args) throws FileNotFoundException {
-        if (args.length == 0) {
-            System.out.println("No file name provided!");
-            return;
-        }
 
-        String str = args[0];
-//
-        File file = new File(str);
-       // File file = new File("D:\\Udemi\\first\\01.txt");
+        //File file = new File(str);
+
+        File file = new File("D:\\Udemi\\first\\01.txt");
         //File file = new File("Udemi\\first\\02.txt");
         Scanner scanner = new Scanner(file);
 
-       // String str = scanner.nextLine();
+        String str = scanner.nextLine();
 
 
         char[] letters = new char[52];
