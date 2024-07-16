@@ -14,31 +14,25 @@ public class TestSecond {
         int count=0;
         char[] array = new char[26];
         int index = 0;
-
-            for (int i = 0; i < charArray.length; i++) {
-                    for (char c = 'a'; c <= 'z'; c++) {
-                        if(charArray[i] == c) {
-                        array[index++] = c;
-                        count++;
-                        System.out.print(" " + count + " " + charArray[i]);
-                }
-            }
-
-        }
-        System.out.println();
-
         for (char c = 'a'; c <= 'z'; c++) {
+                array[index++] = c;
+                System.out.print(" " + c);
+
+        }
+
             for (int i = 0; i < charArray.length; i++) {
-                array[index] = c;
-                if(charArray[i] == c)
-                    count++;
-                System.out.print(" " + count + " " + charArray[i]);
+                if(str.indexOf(i) == charArray[i]) {
+                        if (charArray[i] == array[i]) {
+                            array[index++] = array[i];
+                            count++;
+                            System.out.print(" " + count + " " + charArray[i]);
+                        }
 
-            }
-
-            // System.out.print(c + " ");
+                }
         }
         System.out.println();
+
+
 
 
 
